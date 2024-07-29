@@ -1,0 +1,33 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+body {
+	background-color: rgb(59, 66, 73);
+	color: mediumpurple;
+	font-family: "Lato", sans-serif;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ======================================================================================================================================================== */
+
+.hero__container {
+	padding-top: 120px;
+	padding-left: 120px;
+	padding-bottom: 120px;
+}
+.hero__list {
+	display: grid;
+	gap: 1.875rem;
+}
+.hero__item {
+}
+.hero__link {
+font-weight: 700;
+font-size: 32px;
+&:hover{text-decoration: underline;}
+}
