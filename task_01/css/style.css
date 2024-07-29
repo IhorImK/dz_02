@@ -4,6 +4,7 @@ body{
 	background-color: rgb(59, 66, 73);
 	color: mediumpurple;
 	font-family: "Lato", sans-serif;
+	
 }
 
 
@@ -15,4 +16,8 @@ body{
 }
 
 
+.task {
+	font-weight: 700;
+	font-size: 43px;
+}
 

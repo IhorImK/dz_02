@@ -17,17 +17,52 @@ body {
 
 .hero__container {
 	padding-top: 120px;
-	padding-left: 120px;
+
 	padding-bottom: 120px;
 }
-.hero__list {
+ 
+.spollers {
 	display: grid;
-	gap: 1.875rem;
+	gap: 15px;
 }
-.hero__item {
+.spollers__item {
 }
-.hero__link {
-font-weight: 700;
-font-size: 32px;
-&:hover{text-decoration: underline;}
+
+.spollers__title {
+	font-weight: 700;
+	font-size: 44px;
+	width: 100%;
+	cursor: default;
+	line-height: 1.33;
+	text-align: left;
+	background-color: rgba(80, 80, 80, 0.349);
+	padding: 10px 15px;
+	border-radius: 5px;
+	position: relative;
+	transition: all 0.38s;
+	list-style: none;
 }
+.spollers__title::marker,
+.spollers__title::-webkit-details-marker {
+	display: none;
+}
+._spoller-init.spollers__title {
+	cursor: pointer;
+	position: relative;
+	
+}
+
+.spollers__body {
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.204);
+	display: grid;
+	gap: 37px
+}
+.spollers__link {
+	font-weight: 700;
+	font-size: 32px;
+	&:hover {
+		text-decoration: underline;
+	}
+} 

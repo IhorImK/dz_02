@@ -14,3 +14,7 @@ body{
    padding-right: 15px;
 }
 
+.task {
+	font-weight: 700;
+	font-size: 43px;
+}
